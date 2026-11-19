@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AUREA Fashion Maison — timeless luxury fashion, handbags, shoes and accessories.">
+  <title>AUREA Fashion Maison</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22><rect width=%2264%22 height=%2264%22 fill=%22%23111111%22/><text x=%2232%22 y=%2243%22 text-anchor=%22middle%22 font-size=%2234%22 font-family=%22Georgia%22 fill=%22%23E0CDB4%22>A</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="radhika%20style.css">
+</head>
+<body>
+  <div class="announcement-bar">
+    <div class="announcement-content">
+      <span>Complimentary Delivery Above ₹5,000</span>
+      <span class="announcement-divider">|</span>
+      <span class="announcement-highlight">Private Sale: 20% off</span>
+    </div>
+  </div>
+
+  <header class="navbar-wrapper" id="main-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand-logo" href="#home" aria-label="AUREA home">
+        <span class="logo-link">
+          <span class="logo-mark">AUREA</span>
+          <span class="logo-sub">FASHION MAISON</span>
+        </span>
+      </a>
+      <div class="nav-links">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#categories">Atelier</a>
+        <a class="nav-link" href="#collection">Collections</a>
+        <a class="nav-link" href="#bestsellers">Bestsellers</a>
+        <a class="nav-link" href="#about">Our World</a>
+      </div>
+      <div class="nav-actions">
+        <button class="action-btn" id="search-open-btn" aria-label="Search">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"></circle><line x1="16.5" y1="16.5" x2="21" y2="21"></line></svg>
+        </button>
+        <button class="action-btn" id="wishlist-toggle" aria-label="View wishlist">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+          <span class="action-count" id="wishlist-counter">0</span>
+        </button>
+        <button class="action-btn" id="cart-toggle-btn" aria-label="Open shopping bag">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line></svg>
+          <span class="action-count" id="cart-counter">0</span>
+        </button>
+        <button class="hamburger-btn" id="hamburger-toggle" aria-label="Open menu" aria-expanded="false"><span class="bar"></span><span class="bar"></span><span class="bar"></span></button>
+      </div>
+    </nav>
+  </header>
+
+  <aside class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
+    <div>
+      <div class="mobile-drawer-header"><span class="mobile-drawer-logo">AUREA</span><button class="close-drawer-btn" id="close-drawer" aria-label="Close menu">×</button></div>
+      <div class="mobile-nav-links">
+        <a class="mobile-nav-link" href="#home">Home</a><a class="mobile-nav-link" href="#categories">Atelier</a>
+        <a class="mobile-nav-link" href="#collection">Collections</a><a class="mobile-nav-link" href="#bestsellers">Bestsellers</a>
+        <a class="mobile-nav-link" href="#about">Our World</a><a class="mobile-nav-link" href="#contact">Concierge</a>
+      </div>
+    </div>
+    <div class="mobile-drawer-footer"><p class="drawer-contact-title">Private Client Services</p><p class="drawer-contact-phone">+91 1800 123 AUREA</p><p class="drawer-contact-email">concierge@aureamaison.com</p></div>
+  </aside>
+  <div class="backdrop-overlay" id="nav-backdrop"></div>
+
+  <main>
+    <section class="hero-section" id="home">
+      <div class="hero-image-wrapper">
+        <img class="hero-img" src="https://images.unsplash.com/photo-1509631179647-0177331693ae?q=85&w=1800&auto=format&fit=crop" alt="AUREA signature fashion editorial">
+        <div class="hero-gradient-overlay"></div>
+      </div>
+      <div class="hero-content container">
+        <div class="hero-text-block">
+          <span class="hero-season-badge">THE AUTUMN EDIT · 2026</span>
+          <h1 class="hero-title">The Art of<br>Quiet Luxury</h1>
+          <p class="hero-subtitle">Exceptional silhouettes, noble materials, and considered details—created for a life lived beautifully.</p>
+          <div class="hero-cta-group">
+            <a class="btn btn-primary" href="#collection">Discover the Edit</a>
+            <a class="btn btn-secondary" href="#categories">Explore Categories</a>
+          </div>
+        </div>
+      </div>
+      <a class="scroll-down-indicator" href="#categories"><span>EXPLORE</span><span class="scroll-line"></span></a>
+    </section>
+
+    <section class="brand-values-bar" aria-label="AUREA services">
+      <div class="container values-grid">
+        <div class="value-item"><span class="value-icon">◇</span><div class="value-text"><h4>Complimentary Delivery</h4><p>On every order above ₹5,000</p></div></div>
+        <div class="value-item"><span class="value-icon">14</span><div class="value-text"><h4>14-Day Returns</h4><p>Seamless exchanges, always</p></div></div>
+        <div class="value-item"><span class="value-icon">✦</span><div class="value-text"><h4>Certified Authenticity</h4><p>Every piece verified by AUREA</p></div></div>
+        <div class="value-item"><span class="value-icon">◎</span><div class="value-text"><h4>Private Concierge</h4><p>Personal guidance, delivered</p></div></div>
+      </div>
+    </section>
+
+    <section class="section" id="categories">
+      <div class="container">
+        <div class="section-header text-center"><span class="section-subtitle">THE MAISON EDIT</span><h2 class="section-title">Curated Worlds</h2><div class="title-ornament"></div><p class="section-description">Discover the signatures of the season, designed to move effortlessly through every occasion.</p></div>
+        <div class="category-grid">
+          <article class="category-card" data-filter="Dresses"><div class="category-image-wrap"><img src="https://images.unsplash.com/photo-1566174053879-31528523f8ae?q=80&w=900&auto=format&fit=crop" alt="Luxury dresses"><div class="category-overlay"></div></div><div class="category-info"><span class="category-count">THE SILHOUETTE EDIT</span><h3 class="category-name">Dresses</h3><span class="category-cta">Discover <span class="arrow">→</span></span></div></article>
+          <article class="category-card" data-filter="Handbags"><div class="category-image-wrap"><img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?q=80&w=900&auto=format&fit=crop" alt="Designer handbags"><div class="category-overlay"></div></div><div class="category-info"><span class="category-count">ICONIC CARRYALLS</span><h3 class="category-name">Handbags</h3><span class="category-cta">Discover <span class="arrow">→</span></span></div></article>
+          <article class="category-card" data-filter="Shoes"><div class="category-image-wrap"><img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?q=80&w=900&auto=format&fit=crop" alt="Luxury shoes"><div class="category-overlay"></div></div><div class="category-info"><span class="category-count">SOLE MASTERY</span><h3 class="category-name">Shoes</h3><span class="category-cta">Discover <span class="arrow">→</span></span></div></article>
+          <article class="category-card" data-filter="Accessories"><div class="category-image-wrap"><img src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?q=80&w=900&auto=format&fit=crop" alt="Luxury accessories"><div class="category-overlay"></div></div><div class="category-info"><span class="category-count">FINISHING NOTES</span><h3 class="category-name">Accessories</h3><span class="category-cta">Discover <span class="arrow">→</span></span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section collection-section" id="collection">
+      <div class="container">
+        <div class="section-header text-center"><span class="section-subtitle">THE 2026 COLLECTION</span><h2 class="section-title">Modern Heirlooms</h2><div class="title-ornament"></div></div>
+        <div class="collection-filter-bar">
+          <div class="filter-tabs-wrapper" role="tablist">
+            <button class="filter-tab active" data-category="all" role="tab" aria-selected="true">All</button>
+            <button class="filter-tab" data-category="Dresses" role="tab" aria-selected="false">Dresses</button>
+            <button class="filter-tab" data-category="Tops" role="tab" aria-selected="false">Tops</button>
+            <button class="filter-tab" data-category="Handbags" role="tab" aria-selected="false">Handbags</button>
+            <button class="filter-tab" data-category="Shoes" role="tab" aria-selected="false">Shoes</button>
+            <button class="filter-tab" data-category="Accessories" role="tab" aria-selected="false">Accessories</button>
+          </div>
+          <div class="collection-controls"><span id="product-count-display">Showing 20 creations</span><select id="sort-select" aria-label="Sort collection"><option value="featured">Featured</option><option value="price-low">Price: Low to High</option><option value="price-high">Price: High to Low</option><option value="rating">Highest Rated</option></select><button id="reset-filter-btn" class="reset-filter-btn">Reset</button></div>
+        </div>
+        <div class="product-grid" id="main-product-grid"></div>
+        <div id="collection-empty" style="display:none" class="text-center">No creations match this selection.</div>
+      </div>
+    </section>
+
+    <section class="section bestsellers-section" id="bestsellers">
+      <div class="container"><div class="section-header text-center"><span class="section-subtitle">MOST ADMIRED</span><h2 class="section-title">Maison Icons</h2><div class="title-ornament"></div></div><div class="product-grid" id="bestsellers-grid"></div></div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container"><div class="section-header text-center"><span class="section-subtitle">OUR WORLD</span><h2 class="section-title">Designed to Endure</h2><div class="title-ornament"></div><p class="section-description">AUREA brings together artisanship, responsible materials and a modern point of view. Each collection is made to become part of your personal legacy.</p></div></div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container"><div class="contact-card"><div class="contact-intro"><span class="section-subtitle">PRIVATE SERVICES</span><h2>Speak with an Advisor</h2><p>For styling, gifting and made-to-order enquiries, our Client Advisors are at your service.</p></div>
+        <form id="concierge-form" class="concierge-form"><div class="form-row"><input id="contact-name" name="name" placeholder="Your name" required><input id="contact-email" name="email" type="email" placeholder="Email address" required></div><textarea id="contact-message" name="message" placeholder="How may we assist you?" required></textarea><button class="btn btn-primary" type="submit">Request a Consultation</button><p id="contact-feedback" class="contact-feedback"></p></form>
+      </div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><a class="footer-logo" href="#home"><span class="logo-mark">AUREA</span><span class="logo-sub">FASHION MAISON</span></a><p class="footer-tagline">Timeless forms and exceptional craft, composed for the modern wardrobe.</p></div>
+      <div><h3 class="footer-title">The Maison</h3><ul class="footer-links"><li><a href="#about">Our World</a></li><li><a href="#collection">Collections</a></li><li><a href="#bestsellers">Icons</a></li></ul></div>
+      <div><h3 class="footer-title">Client Services</h3><ul class="footer-links"><li><a class="modal-info-trigger" href="#" data-modal="shipping">Delivery</a></li><li><a class="modal-info-trigger" href="#" data-modal="returns">Returns</a></li><li><a href="#contact">Concierge</a></li></ul></div>
+      <div><h3 class="footer-title">Inner Circle</h3><form id="newsletter-form"><input id="newsletter-email" type="email" placeholder="Email address" aria-label="Email address"><button class="btn btn-primary" type="submit">Join</button><p id="newsletter-feedback" class="form-feedback"></p></form></div>
+    </div>
+    <div class="footer-bottom"><div class="container footer-bottom-flex"><span>© <span id="current-year"></span> AUREA Fashion Maison</span><div class="footer-bottom-badges"><span class="currency-tag">INR</span><span class="badge-dot">•</span><a class="modal-info-trigger" href="#" data-modal="privacy">Privacy</a></div></div></div>
+  </footer>
+
+  <div class="cart-backdrop" id="cart-backdrop"></div>
+  <aside class="cart-drawer" id="cart-drawer" aria-hidden="true">
+    <div class="cart-drawer-header"><h3 class="cart-drawer-title">Shopping Bag <span id="drawer-item-count">(0)</span></h3><button class="cart-drawer-close" id="cart-close-btn" aria-label="Close bag">×</button></div>
+    <div class="cart-shipping-progress"><div id="shipping-progress-text" class="shipping-progress-text"></div><div class="shipping-progress-track"><div id="shipping-progress-fill" class="shipping-progress-fill"></div></div></div>
+    <div class="cart-items-list" id="cart-items-list"></div>
+    <div class="cart-drawer-footer"><div class="cart-summary-row"><span>Subtotal</span><strong id="cart-subtotal-val">₹0</strong></div><div class="cart-summary-row"><span>Delivery</span><strong id="cart-shipping-val">Calculated at checkout</strong></div><div class="cart-summary-row grand"><span>Total</span><strong id="cart-grandtotal-val">₹0</strong></div><button class="btn btn-primary btn-block" id="checkout-btn">Proceed to Checkout</button><button class="cart-continue" id="continue-shopping-btn">Continue Shopping</button></div>
+  </aside>
+
+  <div class="search-modal" id="search-modal" aria-hidden="true"><div class="container"><div class="search-modal-header"><span class="search-title">Search the Maison</span><button class="search-close-btn" id="search-close-btn" aria-label="Close search">×</button></div><div class="search-input-wrapper"><svg class="search-input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"></circle><line x1="16.5" y1="16.5" x2="21" y2="21"></line></svg><input id="catalog-search-input" type="search" placeholder="What are you looking for?" autocomplete="off"><button id="clear-search-btn" class="clear-search-btn" style="display:none" aria-label="Clear search">×</button></div><div class="search-quick-tags"><span>Popular:</span><button class="quick-tag" data-tag="silk">Silk</button><button class="quick-tag" data-tag="handbag">Handbag</button><button class="quick-tag" data-tag="dress">Dress</button><button class="quick-tag" data-tag="gold">Gold</button></div><div class="search-results-wrapper" id="search-results-container"></div></div></div>
+
+  <div class="quickview-backdrop" id="quickview-backdrop"></div>
+  <div class="quickview-modal" id="quickview-modal" aria-hidden="true"><div class="quickview-content-wrapper"><button class="quickview-close-btn" id="quickview-close-btn" aria-label="Close quick view">×</button><div class="quickview-grid"><div class="quickview-media"><img id="qv-image" src="" alt=""></div><div class="quickview-details"><span id="qv-category" class="qv-category"></span><h3 id="qv-title" class="qv-title"></h3><p id="qv-rating" class="qv-rating"></p><p id="qv-price" class="qv-price"></p><p id="qv-description" class="qv-description"></p><div class="qv-size-picker"><span>Size</span><div><button class="size-btn active" data-size="S">S</button><button class="size-btn" data-size="M">M</button><button class="size-btn" data-size="L">L</button></div></div><div class="qv-purchase-row"><div class="qv-qty"><button id="qv-minus-btn">−</button><span id="qv-qty-val">1</span><button id="qv-plus-btn">+</button></div><button id="qv-add-cart-btn" class="btn btn-primary">Add to Bag</button></div></div></div></div></div>
+
+  <div class="info-modal-backdrop" id="info-backdrop"></div>
+  <div class="info-modal" id="info-modal" aria-hidden="true"><div class="info-modal-content"><button class="info-modal-close" id="info-modal-close" aria-label="Close">×</button><h3 id="info-modal-title"></h3><div id="info-modal-body"></div><button class="btn btn-primary" id="info-modal-ack-btn">Continue</button></div></div>
+  <div id="toast-container" class="toast-container"></div>
+
+  <script src="radhika%20java.js"></script>
+</body>
+</html>
